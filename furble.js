@@ -667,11 +667,19 @@ async function doConnect() {
     await checkActiveSlot();
 
     await setAntennaColor(255,0,0);
-    await sleep(600);
+    await sleep(300);
+    await setAntennaColor(255,127,0);
+    await sleep(300);
+    await setAntennaColor(255,255,0);
+    await sleep(300);
+    await setAntennaColor(127,255,0);
+    await sleep(300);
     await setAntennaColor(0,255,0);
-    await sleep(600);
-    await setAntennaColor(0,0,255);
-    await sleep(600);
-
-
+    await sleep(300);
+    await setAntennaColor(0,255,127);
+    await sleep(300);
+    await setAntennaColor(0,255,255);
+    await sleep(300);
+    await setAntennaColor(255,255,255);
+    await sleep(300);
 }
