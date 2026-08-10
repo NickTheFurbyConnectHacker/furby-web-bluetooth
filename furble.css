@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root {
-    --bg-primary: rgb(243, 0, 170);
+    --bg-primary: rgb(25,75,50);
 }
 
 body { font-family: sans }
@@ -15,7 +15,7 @@ body *  { user-select: none }
 #console { 
     position: fixed; 
     bottom: 0; left: 0; 
-    background: #eee; 
+    background: #000000; 
     left:0;
     right: 0;
     padding: 0.5em;
